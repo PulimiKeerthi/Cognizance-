@@ -1,0 +1,26 @@
+problem 2 :
+
+Function Main
+    Declare Integer Range
+    
+    Output "enter the term you want in fibanocci series "
+    Input Range
+    Call Fibfun(Range)
+End
+
+Function fibfun (Integer Range)
+    Declare Integer a, b, c, p
+    
+    Assign a = 0
+    Assign b = 1
+    If Range >= 2
+        For p = 0 to Range - 2
+            Assign c = a + b
+            Assign a = b
+            Assign b = c
+        End
+        Output b
+    False:
+        Output a
+    End
+End

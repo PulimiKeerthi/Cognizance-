@@ -1,0 +1,22 @@
+Problem 1 :
+
+INPUT : a number (n)
+OUTPUT: 
+
+Function Main
+    Declare Integer n, r, D
+    
+    Output "enter a number"
+    Input n
+    Assign D = 0
+    Output "computing...please wait"
+    While n >= D
+        Assign D = D + 3
+    End
+    If D - 3 == n
+        Output "TRUE"
+    False:
+        Output "FALSE"
+    End
+End
+
